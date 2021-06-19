@@ -119,8 +119,9 @@ class _RandomWordsState extends State<RandomWords> {
             title: Text("Saved Suggestions"),
           ),
           body: ListView(
+              //The ListTile is shown here
               children:
-                  divided) //in the body of new page, we show the ListView which consists the divider lines
+                  divided) //in the body of new page, we show the ListView with the divided lines as children
           );
     }));
   }
